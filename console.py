@@ -97,7 +97,7 @@ class HBNBCommand(cmd.Cmd):
         else:
             print("** class doesn't exist **")
 
-    def do_update(slef, line):
+    def do_update(self, line):
         """This update an instance based on the class name
         and id by adding and updating attributes.
         """
@@ -124,7 +124,7 @@ class HBNBCommand(cmd.Cmd):
                 setattr(inst_data, 'updated_at', datetime.now())
                 models.storage.save()
 
-    def analyze_parameter_value(self, line):
+    def analyze_parameter_value(self, value):
         """
         Check parameter value for any update
 
