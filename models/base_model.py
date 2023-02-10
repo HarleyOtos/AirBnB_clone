@@ -13,6 +13,7 @@ from datetime import datetime
 import models
 import uuid
 
+
 class BaseModel:
     """
     Base model class is the Base Model that take cares of the
