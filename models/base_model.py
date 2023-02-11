@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# -*- coding: utf-8 -*-
 """Base model module
 This module is the module in charge of referencing the rest of
 the classes of the AirBnB Clone from which it will be possible
