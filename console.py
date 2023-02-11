@@ -20,7 +20,7 @@ import re
 import shlex
 
 class HBNBCommand(cmd.Cmd):
-    """The command processor class"""
+    """The command processor class."""
     prompt = '(hbnb) '
     allowed_classes = ['BaseModel', 'User', 'State', 'City',
                        'Amenity', 'Place', 'Review']
