@@ -6,7 +6,7 @@ to extract data such as: Unique Universal Identifier (UUID),
 date and time instances where a class was created & updated,
 standard format to print a class content, to save data created
 from instances and the representation of all the keys and
-values of an instance. 
+values of an instance.
 """
 
 from datetime import datetime
@@ -23,7 +23,7 @@ class BaseModel:
     Attributes:
         id (str): It is the UUID for which an instance is created.
         created_at (datetime): The current datetime when
-            an instance is created.
+        an instance is created.
         updated_at (datetime): The current datetime when an instance
             is created and it will be updated every time you change your object
     """
@@ -61,7 +61,7 @@ class BaseModel:
         return '[{0}] ({1}) {2}'.format(
             self.__class__.__name__, self.id, self.__dict__
         )
-    
+
     def save(self):
         """
         updates the public instance attribute `updated_at` with
