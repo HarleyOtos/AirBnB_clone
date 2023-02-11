@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-"""
-The Console Module
+"""The Console Module.
+
 This is the module that controls the application database.
 With capacity to create, modify and delete instances.
 """
@@ -24,17 +24,20 @@ class HBNBCommand(cmd.Cmd):
     prompt = '(hbnb) '
     allowed_classes = ['BaseModel', 'User', 'State', 'City',
                        'Amenity', 'Place', 'Review']
-    
+
     def do_quit(self, line):
-        """The Quit command to exit the program."""
+        """The Quit command to exit the program.
+        """
         return True
-    
+
     def do_EOF(self, line):
-        """The Quit command to exit the program."""
+        """The Quit command to exit the program.
+        """
         return True
-    
+
     def do_create(self, line):
-        """To create a new instance of BaseModel"""
+        """To create a new instance of BaseModel
+        """
         command = self.parseline(line)[0]
         if command is None:
             print('** class name missing **')

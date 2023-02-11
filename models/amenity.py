@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 """
 The Amenity Module is inherited from the BaseModel class.
-It contains the attributes that is assigned to Amenities of places.
+It contains the attributes that is assigned to Amenities
+of places.
 """
 
 from models.base_model import BaseModel

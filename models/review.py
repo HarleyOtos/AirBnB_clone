@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 """
 The Review Module is inherited from the BaseModel class.
-It contains the attributes that is assigned to Reviews of places
-added by users.
+It contains the attributes that is assigned to Reviews
+of places added by users.
 """
 
 from models.base_model import BaseModel

@@ -26,7 +26,8 @@ class BaseModel:
         created_at (datetime): The current datetime when
         an instance is created.
         updated_at (datetime): The current datetime when an instance
-            is created and it will be updated every time you change your object
+        is created and it will be updated every time you change
+        your object
     """
 
     def __init__(self, *args, **kwargs):

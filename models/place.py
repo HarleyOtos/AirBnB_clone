@@ -22,7 +22,8 @@ class Place(BaseModel):
         price_by_night (int): The price of the Place per night
         latitude (float): The latitude of the Place
         longitude (float): The longitude of the Place
-        amenity_ids (list): A list that contains all the Amenities in the Place
+        amenity_ids (list): A list that contains all the Amenities
+        in the Place
     """
     city_id = ''
     user_id = ''
