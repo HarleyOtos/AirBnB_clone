@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 """Base model module
+
 This module is the module in charge of referencing the rest of
 the classes of the AirBnB Clone from which it will be possible
 to extract data such as: Unique Universal Identifier (UUID),
@@ -42,11 +43,11 @@ class BaseModel:
 
                 if arg != '__class__':
                     setattr(self, arg, val)
-                else:
-                    self.id = str(uuid.uuid4())
-                    self.created_at = datetime.now()
-                    self.updated_at = self.created_at
-                    models.storage.new(self)
+        else:
+            self.id = str(uuid.uuid4())
+            self.created_at = datetime.now()
+            self.updated_at = self.created_at
+            models.storage.new(self)
 
     def __str__(self):
         """ Class for user
