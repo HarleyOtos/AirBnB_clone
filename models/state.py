@@ -10,9 +10,8 @@ from models.base_model import BaseModel
 
 class State(BaseModel):
     """The State class
-    
+
     Attributes:
         name (str): The name of a State
-
     """
     name = ''

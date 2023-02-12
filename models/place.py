@@ -10,7 +10,7 @@ from models.base_model import BaseModel
 
 class Place(BaseModel):
     """The Place class
-    
+
     Attributes:
         city_id (str): The UUID of the City the Place is located
         user_id (str): The UUID of the User in the Place

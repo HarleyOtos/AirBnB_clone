@@ -10,13 +10,12 @@ from models.base_model import BaseModel
 
 class User(BaseModel):
     """The User class
-    
+
     Attributes:
         email (str): The email of User
         password (str): The password of a User
         first_name (str): The first name of a User
         last_name (str): The last name of a User
-
     """
     email = ''
     password = ''

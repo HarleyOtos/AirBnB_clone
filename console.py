@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 """The Console Module.
-
 This is the module that controls the application database.
 With capacity to create, modify and delete instances.
 """
